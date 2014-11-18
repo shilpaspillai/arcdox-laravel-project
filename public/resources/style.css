@@ -1,0 +1,140 @@
+
+.container
+{
+    width: 940px;
+    margin: 0 auto;
+}
+#changes
+{
+    background-color: red;
+    color:#000;
+    width: 500px;
+    height: 250px;
+    margin-top: 100px;
+}
+
+#contents
+{
+  width: 500px; 
+  margin-top:100px;
+  margin-left:100px;
+   color: #fff;
+   border:double 6px #606;
+   border-radius: 50px;
+}
+#contents-login
+{
+    margin:auto; 
+  margin-top:50px;
+   color: #000;
+   border:solid 1px  mediumvioletred;
+   border-radius: 14px; 
+   width:930px;
+   min-height:600px;
+   background-color: rgb(219, 209, 226);
+}
+#content
+{
+
+  margin:auto; 
+  margin-top:50px;
+  
+   border:solid 1px  mediumvioletred;
+   border-radius: 14px; 
+   width:930px;
+   min-height:600px;
+   background-color: rgb(219, 209, 226);
+    
+    
+}
+
+.navbar-header a{
+    color:#fff;
+}
+.navbar-header
+{
+    background-color:mediumvioletred;
+}
+
+
+.input-error
+{
+  
+   width:100px;
+   height: 100px;
+   margin-top: 50px;
+    background-color: #269abc;
+}
+#heading
+{
+ border-bottom :dotted 3px mediumvioletred;
+
+}
+
+#message{
+    margin-bottom: 25px;
+}
+.navbar-header{
+    width:100%;
+}
+.container-fluid{
+    width:100%;
+}
+
+.training-box
+{
+    padding:10px;
+    margin:15px;
+    background-color:#FFF;
+    margin-top:15px;
+    color:#000;
+    border-color:#666;
+    border:1px dotted;
+}
+
+.training-box .training-img
+{
+    text-align:center;
+    height:200px;
+    max-height:200px;
+    overflow:hidden;
+}
+.training-detail
+{
+    color:#000;
+    padding-left: 250px;
+}
+.training-detail h2
+{
+    border-bottom:dotted 1px #000;
+}
+.training-error
+{
+  
+ 
+}
+.training-error p
+{
+   
+}
+.traininglist-box{
+    padding-top: 15px;
+    margin-left: 25px;
+    color:#000;
+    
+    
+}
+.traininglist-heading h2{
+    color:#000;
+}
+.password_reset_section
+{
+    margin:auto; 
+  margin-top:50px;
+   color: #000;
+   border:solid 1px  mediumvioletred;
+   border-radius: 14px; 
+   width:930px;
+   min-height:500px;
+   background-color: rgb(219, 209, 226);
+}
