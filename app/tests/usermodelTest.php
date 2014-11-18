@@ -47,17 +47,7 @@ class usermodelTest extends Illuminate\Foundation\Testing\TestCase
           $userName=$user_model_object->get_user_detail($user->id);     
           $this->assertEquals($userName->firstname, $firstname);
     }
-    public function testUser_data_updation() {
-         $user_model_object = new User();
-         $id=15;
-         $firstname='updatedname';
-         $surname='updatedsurname';
-         $workemail='update@mail.com';
-         $email='update1@mail.com';
-         $profession='updateprofession';
-         $user=$user_model_object->update_user_detail($id,$firstname,$surname,$workemail,$email,$profession,$linkedin,$twitter,$facebook,$homeaddress1,$homeaddress2,$city,$county,$country,$telephone,$mobile);
-        
-    }
+
     public function tearDown() {
         parent::tearDown();
     }
